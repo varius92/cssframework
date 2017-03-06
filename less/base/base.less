@@ -6,6 +6,8 @@
  * Set up a decent box model on the root element
  */
 html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -16,6 +18,8 @@ html {
  * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
  */
 *, *::before, *::after {
-  box-sizing: inherit;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 } 
 
