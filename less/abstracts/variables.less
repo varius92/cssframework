@@ -1,8 +1,42 @@
 // -----------------------------------------------------------------------------
 // This file contains all application-wide Less variables.
 // -----------------------------------------------------------------------------
-// Grid breakpoints
-@breakpoints : xs 0, sm 544px, md 768px, lg 992px, xl 1200px;
 
-// Number of columns
-@columns : 12;
+// ****************************************************************
+// Colors
+// ****************************************************************
+@color-primary: rgb(121, 65, 130);
+@color-secondary: rgb(72, 77, 130);
+
+@color-gray_dark: rgb(62, 62, 62);
+@color-gray_light: rgb(143, 143, 143);
+@color-white: #FFFFFF;
+
+// ****************************************************************
+// Font
+// ****************************************************************
+@text-color: @color-gray_dark;
+@font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-size-base: 14px;
+@font-size-h1: 60px;
+@font-size-h2: 45px;
+@font-size-h3: 30px;
+@font-size-h4: 20px;
+@font-size-h5: 16px;
+@font-size-h6: 12px;
+
+// ****************************************************************
+// GRID
+// ****************************************************************
+// ** Grid breakpoints
+@xl: 1200px;
+@lg: 992px;
+@md: 768px;
+@sm: 544px;
+@xs: 0;
+@breakpoints: xs @xs, sm @sm, md @md, lg @lg, xl @xl;
+
+// ** Number of columns
+@columns: 12;
+// ** Padding between columns. Gets divided in half for the left and right.
+@gutter-width: 30px;
