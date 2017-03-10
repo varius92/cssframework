@@ -1,9 +1,11 @@
+// ** Element declaration
 .has(@element; @content){
   &__@{element}{
     @content();
   }
 }
 
+// ** Modifier declaration
 .variant(@modifier; @content){
   &--@{modifier} {
     @content();

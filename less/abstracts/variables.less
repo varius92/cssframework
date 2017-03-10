@@ -1,4 +1,3 @@
-
 // ****************************************************************
 // Colors
 // ****************************************************************
@@ -10,20 +9,41 @@
 @color-white: #FFFFFF;
 
 // ****************************************************************
+// Typography
+// ****************************************************************
+@font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-headings: inherit;
+
+@text-color: @color-gray_dark;
+@text-color-complementary: #FFFFFF;
+
+// ** Typesetting variables.
+@font-size-base: 18; // in pixels
+@font-line-height-base: 1.666666666666666667; // unitless
+@vertical-rhythm: @font-line-height-base * 1rem;
+
+// ****************************************************************
+// Headings
+// ****************************************************************
+@headings-count: 4;
+// ** Modular Scale Ratio – Rate of growth for headings
+@ms-ratio: 1.333;
+
+// ****************************************************************
 // GRID
 // ****************************************************************
 // ** Grid breakpoints
-@grid-container-width: 1200px;
 @xl: 1200px;
 @lg: 992px;
 @md: 768px;
 @sm: 544px;
 @xs: 0;
 @breakpoints: xs @xs, sm @sm, md @md, lg @lg, xl @xl;
+@container-width: 1200px;
 
 // ** Number of columns
 @columns: 12;
 
 // ** Gutter: Padding/Margin between columns. Gets divided in half for the left and right(horizontal), top and bottom(vertical).
-@gutter-width-horizontal: @leading;
+@gutter-width-horizontal: @vertical-rhythm;
 @gutter-width-vertical: 0;

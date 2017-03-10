@@ -1,4 +1,16 @@
-// -----------------------------------------------------------------------------
-// This file contains all application-wide Less functions.
-// -----------------------------------------------------------------------------
+// ** Create headings h{n} and .h{n}
+.make-headings (@n) when (@n > 0) {
+  h@{n}, .h@{n} {
+    font-size: (@headings-count - @n + 1) * @ms-ratio * 1rem;
+    line-height: (@headings-count - @n + 1) * @vertical-rhythm;
+    margin-top: 2 * @vertical-rhythm;
 
+    & when (@n > 3) {
+      margin-top: 1 * @vertical-rhythm;
+    }
+    & when (@n <= 3) {
+      margin-top: 2 * @vertical-rhythm;
+    }
+  }
+  .make-headings(@n - 1);
+}
