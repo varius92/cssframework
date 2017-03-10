@@ -1,12 +1,18 @@
+// ****************************************************************
+// Variables
+//
+// ****************************************************************
+
 html {
-  font-family: @font-family-base;
-  font-size: @font-size-base / 16 * 100%;
+  font-size: @font-size / 16 * 100%;
   -webkit-font-smoothing: antialiased;
 }
 
 body {
+  font-family: @font-family;
+  font-weight: @font-weight;
+  color: @font-color;
   line-height: @vertical-rhythm;
-  color: @text-color;
 }
 
 p {
@@ -14,7 +20,6 @@ p {
   margin-top: @vertical-rhythm;
   margin-bottom: 0;
 }
-
 
 blockquote {
   line-height: @vertical-rhythm;

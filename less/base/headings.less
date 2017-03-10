@@ -1,18 +1,16 @@
 // ****************************************************************
 // Variables
 //
-// @ms-ratio
-// @headings-count
-// @font-family-headings
 // ****************************************************************
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: @font-family-headings;
+  font-family: @heading-font-base;
+  font-weight: @heading-font-weight;
+  color: @heading-color;
   margin-bottom: 0; // reset
 }
 
-.make-headings(@headings-count);
-
+.make-headings(@heading-count);
 
 
 

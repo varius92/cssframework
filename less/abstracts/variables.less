@@ -11,34 +11,40 @@
 // ****************************************************************
 // Typography
 // ****************************************************************
-@font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-headings: inherit;
+@font-family: 'Roboto', sans-serif;
+@font-size: 18;
+@font-line-height: 1.666666666666666667;
+@font-weight: 300;
+@font-color: @color-gray_dark;
 
-@text-color: @color-gray_dark;
-@text-color-complementary: #FFFFFF;
-
-// ** Typesetting variables.
-@font-size-base: 18; // in pixels
-@font-line-height-base: 1.666666666666666667; // unitless
-@vertical-rhythm: @font-line-height-base * 1rem;
+// ** Vertical Rhythm
+@vertical-rhythm: @font-line-height * 1rem;
 
 // ****************************************************************
 // Headings
 // ****************************************************************
-@headings-count: 4;
+@heading-font-base: @font-family;
+@heading-font-weight: 300;
+@heading-color: @color-gray_dark;
+
+// ** Number of headings
+@heading-count: 4;
+
 // ** Modular Scale Ratio – Rate of growth for headings
 @ms-ratio: 1.333;
 
 // ****************************************************************
 // GRID
 // ****************************************************************
-// ** Grid breakpoints
+// ** Breakpoints
 @xl: 1200px;
 @lg: 992px;
 @md: 768px;
 @sm: 544px;
 @xs: 0;
 @breakpoints: xs @xs, sm @sm, md @md, lg @lg, xl @xl;
+
+// ** Container
 @container-width: 1200px;
 
 // ** Number of columns
