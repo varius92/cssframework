@@ -3,13 +3,13 @@
   h@{n}, .h@{n} {
     font-size: (@heading-count - @n + 1) * @ms-ratio * 1rem;
     line-height: (@heading-count - @n + 1) * @vertical-rhythm;
-    margin-top: 2 * @vertical-rhythm;
+    margin: @spacing-double;
 
     & when (@n > 3) {
-      margin-top: 1 * @vertical-rhythm;
+      margin: @spacing;
     }
     & when (@n <= 3) {
-      margin-top: 2 * @vertical-rhythm;
+      margin: @spacing-double;
     }
   }
   .make-headings(@n - 1);

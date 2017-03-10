@@ -17,14 +17,12 @@ body {
 
 p {
   line-height: @vertical-rhythm;
-  margin-top: @vertical-rhythm;
-  margin-bottom: 0;
+  margin: @spacing;
 }
 
 blockquote {
   line-height: @vertical-rhythm;
-  margin-top: @vertical-rhythm;
-  margin-bottom: @vertical-rhythm;
+  margin: @spacing;
 }
 
 /* Leading paragraph text */
@@ -32,9 +30,9 @@ blockquote {
   font-size: @ms-ratio * 1rem;
 }
 
-/* Hug a the block above you */
+/* Hug a the block under you */
 .hug {
-  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /*! Typebase.less v0.1.0 | MIT License */

@@ -7,316 +7,229 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<div class="grid grid--container">
-  <div class="row">
-    <div class="col">
-      <h1>Typo</h1>
-      <p class="lead">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, amet animi, beatae delectus
-        deleniti
-        doloremque error eveniet ex explicabo illo labore laborum neque nisi numquam obcaecati odio, optio praesentium
-        quae.
-      </p>
-      <p class="zeitung">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-        diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-        takimata sanctus est Lorem ipsum dolor sit amet.
-      </p>
-      <h1>Headline 1</h1>
-      <h2>Headline 2</h2>
-      <h3>Headline 3</h3>
-      <h4>Headline 4</h4>
-<!--      <h5>Headline 5</h5>-->
-<!--      <h6>Headline 6</h6>-->
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, amet animi, beatae delectus
-        deleniti
-        doloremque error eveniet ex explicabo illo labore laborum neque nisi numquam obcaecati odio, optio praesentium
-        quae.
-        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu
-        feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-        delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-      </p>
-      <blockquote>
-        Blockqoute: For 50 years, WWF has been protecting the future of nature. The world's leading
-        conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United
-        States and close to 5 million globally.
-      </blockquote>
-      <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-        diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-        takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-        diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-        dolor sit amet.
-        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-        commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
-        illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
-        luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias asperiores cupiditate dolor earum esse id magnam
-        nesciunt officia officiis pariatur praesentium quibusdam quisquam quo repellendus, similique suscipit tempora
-        velit veniam?
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col col--md-6">
-      <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-        diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-        takimata sanctus est Lorem ipsum dolor sit amet.
-      </p>
-    </div>
-    <div class="col col--md-6">
-      <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-        diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-        takimata sanctus est Lorem ipsum dolor sit amet.
-      </p>
-    </div>
-  </div>
+<header></header>
+<main class="grid grid--container">
 
-  <div class="row">
-    <div class="col col--md-4">
-      <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-        diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-        takimata sanctus est Lorem ipsum dolor sit amet.
-      </p>
-    </div>
-    <div class="col col--md-4">
-      <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-        diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-        takimata sanctus est Lorem ipsum dolor sit amet.
-      </p>
-    </div>
-    <div class="col col--md-4">
-      <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-        diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-        takimata sanctus est Lorem ipsum dolor sit amet.
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col col--md-3">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aut consectetur eius est hic inventore ipsam minus
-        modi odit perspiciatis quas quod ratione repellendus similique sit, vel veniam voluptatem voluptates.
-      </p>
-    </div>
-    <div class="col col--md-3">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aut consectetur eius est hic inventore ipsam minus
-        modi odit perspiciatis quas quod ratione repellendus similique sit, vel veniam voluptatem voluptates.
-      </p>
-    </div>
-    <div class="col col--md-3">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aut consectetur eius est hic inventore ipsam minus
-        modi odit perspiciatis quas quod ratione repellendus similique sit, vel veniam voluptatem voluptates.
-      </p>
-    </div>
-    <div class="col col--md-3">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aut consectetur eius est hic inventore ipsam minus
-        modi odit perspiciatis quas quod ratione repellendus similique sit, vel veniam voluptatem voluptates.
-      </p>
-    </div>
-  </div>
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<section>
-  <div class="grid grid--container">
-    <div class="row">
-      <div class="col col-md-12">
-        <div class="section__body section--dark__body">
-          <div class="row">
-            <div class="col col--sm-12">
-              <div class="block">
-                <div class="block__content__content"></div>
-              </div>
-            </div>
+
+  <section id="typography" class="row">
+    <div class="col">
+      <header class="text--center"><h3>Typography</h3></header>
+      <article>
+        <header class="text--center"><h4>Headings</h4></header>
+        <p>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        </p>
+      </article>
+      <article>
+        <header class="text--center"><h4>Paragraph</h4></header>
+        <p class="lead text--justify">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aliquid deleniti deserunt dicta eius
+          enim est, fugit harum illum in neque omnis perspiciatis quaerat quia reiciendis rerum saepe temporibus.
+        </p>
+        <p class="text--justify">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+          clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+          consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+          takimata sanctus est Lorem ipsum dolor sit amet.
+        </p>
+        <div class="row">
+          <div class="col col--md-6">
+            <p class="text--justify">
+              Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestieconsequat, vel illum dolore
+              eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+              zzril delenit augue duis dolore te feugait nulla facilisi.
+            </p>
           </div>
-          <div class="row">
-            <div class="col col--sm-11">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-            <div class="col col--sm-1">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col col--sm-10">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-            <div class="col col--sm-2">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col col--sm-9">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-            <div class="col col--sm-3">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col col--sm-8">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-            <div class="col col--sm-4">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col col--sm-7">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-            <div class="col col--sm-5">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col col--sm-6">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-            <div class="col col--sm-6">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col col--sm-5">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-            <div class="col col--sm-7">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col col--sm-4">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-            <div class="col col--sm-8">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col col--sm-3">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-            <div class="col col--sm-9">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col col--sm-2">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-            <div class="col col--sm-10">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col col--sm-1">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-            <div class="col col--sm-11">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col col--sm-12">
-              <div class="block">
-                <div class="block--dark__content"></div>
-              </div>
-            </div>
+          <div class="col col--md-6">
+            <p class="text--justify">
+              Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestieconsequat, vel illum dolore
+              eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+              zzril delenit augue duis dolore te feugait nulla facilisi.
+            </p>
           </div>
         </div>
-      </div>
+        <div class="row">
+          <div class="col col--md-3">
+            <p class="text--justify">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="col col--md-3">
+            <p class="text--justify">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="col col--md-3">
+            <p class="text--justify">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="col col--md-3">
+            <p class="text--justify">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <header class="text--center"><h4>Lists</h4></header>
+        <div class="row">
+          <div class="col col--md-4">
+            <ul>
+              <li>Unordered List item 1</li>
+              <li>Unordered List item 2
+                <ul>
+                  <li>List item a</li>
+                  <li>List item b</li>
+                  <li>List item c</li>
+                </ul>
+              </li>
+              <li>Unordered List item 3</li>
+              <li>Unordered List item 4</li>
+            </ul>
+          </div>
+          <div class="col col--md-4">
+            <ol>
+              <li>Ordered List item 1</li>
+              <li>Ordered List item 2
+                <ol>
+                  <li>List item a</li>
+                  <li>List item b</li>
+                  <li>List item c</li>
+                </ol>
+              </li>
+              <li>Ordered List item 3</li>
+              <li>Ordered List item 4</li>
+            </ol>
+          </div>
+          <div class="col col--md-4">
+            <dl>
+              <dt>Description list term 1</dt>
+              <dd>Term definition list item</dd>
+              <dt>Description list term 2</dt>
+              <dd>Term definition list item</dd>
+              <dt>Description list term 3</dt>
+              <dd>Term definition list item</dd>
+              <dd>Term definition list item</dd>
+            </dl>
+          </div>
+        </div>
+      </article>
+      <article>
+        <header class="text--center"><h4>Blockqoute</h4></header>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid architecto atque aut autem blanditiis
+          consequatur culpa dolores eveniet iusto laudantium neque nobis omnis perspiciatis, quas ratione saepe ut vel
+          voluptatum?
+        </p>
+        <blockquote>
+          <p>The advance of technology is based on making it fit in so that you don't really even notice it, so it's
+            part of everyday life. </p>
+          <cite>- Bill Gates</cite>
+        </blockquote>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur deserunt, dolorum, explicabo
+          harum modi nesciunt nihil non obcaecati placeat quae quia quo ratione sequi voluptas! Architecto facilis quasi
+          suscipit.
+        </p>
+      </article>
+      <article>
+        <header class="text--center"><h4>Semantic text elements</h4></header>
+
+        <div class="row">
+          <div class="col col--md-4">
+            <abbr title="Internationalization">I18N</abbr>
+            <code class="ml-10">&lt;abbr&gt;</code>
+          </div>
+          <div class="col col--md-4">
+            <strong>Bold</strong>
+            <code class="ml-10">&lt;strong&gt;</code> <code>&lt;b&gt;</code>
+          </div>
+          <div class="col col--md-4">
+            <cite>Citation</cite>
+            <code class="ml-10">&lt;cite&gt;</code>
+          </div>
+          <div class="col col--md-4">
+            <code>Hello World!</code>
+            <code class="ml-10">&lt;code&gt;</code>
+          </div>
+          <div class="col col--md-4">
+            <del>Deleted</del>
+            <code class="ml-10">&lt;del&gt;</code>
+          </div>
+          <div class="col col--md-4">
+            <em>Emphasis</em>
+            <code class="ml-10">&lt;em&gt;</code>
+          </div>
+          <div class="col col--md-4">
+            <i>Italic</i>
+            <code class="ml-10">&lt;i&gt;</code>
+          </div>
+          <div class="col col--md-4">
+            <ins>Inserted</ins>
+            <code class="ml-10">&lt;ins&gt;</code>
+          </div>
+          <div class="col col--md-4">
+            <kbd>Ctrl + S</kbd>
+            <code class="ml-10">&lt;kbd&gt;</code>
+          </div>
+          <div class="col col--md-4">
+            <mark>Highlighted</mark>
+            <code class="ml-10">&lt;mark&gt;</code>
+          </div>
+          <div class="col col--md-4">
+            <ruby>
+              漢 <rt>kan</rt>
+              字 <rt>ji</rt>
+            </ruby>
+            <code class="ml-10">&lt;ruby&gt;</code>
+          </div>
+          <div class="col col--md-4">
+            <s>Strikethrough</s>
+            <code class="ml-10">&lt;s&gt;</code>
+          </div>
+          <div class="col col--md-4">
+            <samp>Sample</samp>
+            <code class="ml-10">&lt;samp&gt;</code>
+          </div>
+          <div class="col col--md-4">
+            Text <sub>Subscripted</sub>
+            <code class="ml-10">&lt;sub&gt;</code>
+          </div>
+          <div class="col col--md-4">
+            Text <sup>Superscripted</sup>
+            <code class="ml-10">&lt;sup&gt;</code>
+          </div>
+          <div class="col col--md-4">
+            <time>20:00</time>
+            <code class="ml-10">&lt;time&gt;</code>
+          </div>
+          <div class="col col--md-4">
+            <u>Underline</u>
+            <code class="ml-10">&lt;u&gt;</code>
+          </div>
+          <div class="col col--md-4">
+            <var>x</var> = <var>y</var> + 2
+            <code class="ml-10">&lt;var&gt;</code>
+          </div>
+        </div>
+
+
+
+      </article>
     </div>
-  </div>
-</section>
+  </section>
+
+
+  <!--  @foff-->
+
+
+
 
 <br>
 <br>
@@ -324,12 +237,25 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+
+
+<!--  <section id="typography" class="row">-->
+<!--      <div class="col">-->
+<!--        <header class="text--center"><h3>Typography</h3></header>-->
+<!--        <article>-->
+<!--          <header class="text--center"><h4>Headings</h4></header>-->
+<!--          <p>-->
+<!--          <h1>Heading 1</h1>-->
+<!--          <h2>Heading 2</h2>-->
+<!--          <h3>Heading 3</h3>-->
+<!--          <h4>Heading 4</h4>-->
+<!--          </p>-->
+<!--        </article>-->
+<!--      </div>-->
+<!--  </section>-->
+
+</main>
+<footer></footer>
 </body>
 </html>

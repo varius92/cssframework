@@ -24,7 +24,7 @@
 // Headings
 // ****************************************************************
 @heading-font-base: @font-family;
-@heading-font-weight: 300;
+@heading-font-weight: 400;
 @heading-color: @color-gray_dark;
 
 // ** Number of headings
@@ -45,7 +45,7 @@
 @breakpoints: xs @xs, sm @sm, md @md, lg @lg, xl @xl;
 
 // ** Container
-@container-width: 1200px;
+@container-width: 800px;
 
 // ** Number of columns
 @columns: 12;
@@ -53,3 +53,11 @@
 // ** Gutter: Padding/Margin between columns. Gets divided in half for the left and right(horizontal), top and bottom(vertical).
 @gutter-width-horizontal: @vertical-rhythm;
 @gutter-width-vertical: 0;
+
+// ****************************************************************
+// Spacing
+// ****************************************************************
+// ** Space before/after Layout-/Textelements like <p>, <h4-6>, <ul>, <ol>, <dl>, <article>,
+@spacing: 0 0 @vertical-rhythm  0;
+// ** Space before/after Layout-/Textelements like <h1-3>,
+@spacing-double: 0 0 2 * @vertical-rhythm  0;
