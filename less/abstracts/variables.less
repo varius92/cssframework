@@ -1,31 +1,51 @@
 // ****************************************************************
 // Colors
 // ****************************************************************
-@color-primary: rgb(121, 65, 130);
-@color-secondary: rgb(72, 77, 130);
+@color-primary: #3E50B4;
+@color-secondary: #FF3F80;
 
-@color-gray_dark: rgb(49, 49, 49);
-@color-gray_light: rgb(143, 143, 143);
+@color-primary-hover: lighten(@color-primary, 20%);
+@color-secondary-hover: lighten(@color-secondary, 20%);
+
+@color-black: #000000;
+@color-gray-dark: #212121;
+@color-gray-mid: #616161;
+@color-gray: #BDBDBD;
+@color-gray-light: #EEEEEE;
 @color-white: #FFFFFF;
+
+// ****************************************************************
+// Globals
+// ****************************************************************
+@global-radius: 0.2em;
 
 // ****************************************************************
 // Typography
 // ****************************************************************
-@font-family: 'Roboto', sans-serif;
+
+@root-font-size: 10;
+
+// ** Font variables
+@font-primary: 'Roboto', sans-serif;
+@font-secondary: 'Open Sans', sans-serif;
+@font-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
+
+// ** Text
+@font-base: @font-primary;
 @font-size: 18;
 @font-line-height: 1.666666666666666667;
 @font-weight: 300;
-@font-color: @color-gray_dark;
+@font-color: @color-gray-dark;
 
 // ** Vertical Rhythm
-@vertical-rhythm: @font-line-height * 1rem;
+@vertical-rhythm: @font-line-height * unit(@font-size/@root-font-size, rem);
 
 // ****************************************************************
 // Headings
 // ****************************************************************
-@heading-font-base: @font-family;
+@heading-font-base: @font-primary;
 @heading-font-weight: 400;
-@heading-color: @color-gray_dark;
+@heading-color: @color-gray-dark;
 
 // ** Number of headings
 @heading-count: 4;
@@ -57,7 +77,11 @@
 // ****************************************************************
 // Spacing
 // ****************************************************************
-// ** Space before/after Layout-/Textelements like <p>, <h4-6>, <ul>, <ol>, <dl>, <article>,
-@spacing: 0 0 @vertical-rhythm  0;
-// ** Space before/after Layout-/Textelements like <h1-3>,
+// ** Space before OR after element like <p>, <h4-6>, <ul>, <ol>, <dl>, <article>,
+@spacing: 0 0 @vertical-rhythm 0;
+// ** Space before OR after element like <h1-3>,
 @spacing-double: 0 0 2 * @vertical-rhythm  0;
+// ** Space on all sides like <blockqoute>
+@spacing-inner: @vertical-rhythm;
+
+//@spacing-vertical: @vertical-rhythm 0 @vertical-rhythm 0;

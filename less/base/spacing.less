@@ -1,0 +1,21 @@
+// ****************************************************************
+// Spacing
+// ****************************************************************
+p, ul, ol, dl, table, hr {
+  margin: @spacing;
+}
+
+blockquote {
+  margin: @spacing-inner;
+}
+
+th,
+td {
+  padding-top: @vertical-rhythm/2;
+  padding-bottom: calc(@vertical-rhythm / 2~"- 0.1rem "); // -0.1rem border-bottom
+  padding-left: @vertical-rhythm/2;
+  padding-right: @vertical-rhythm/2;
+}
+fieldset{
+  padding: @spacing-inner;
+}

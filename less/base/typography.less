@@ -1,33 +1,81 @@
-// ****************************************************************
-// Variables
-//
-// ****************************************************************
-
-html {
-  font-size: @font-size / 16 * 100%;
-  -webkit-font-smoothing: antialiased;
+h1, h2, h3, h4, h5, h6 {
+  font-family: @heading-font-base;
+  font-weight: @heading-font-weight;
+  color: @heading-color;
 }
 
-body {
-  font-family: @font-family;
-  font-weight: @font-weight;
-  color: @font-color;
-  line-height: @vertical-rhythm;
+.make-headings(@heading-count);
+
+/*
+h1, .h1 {
+ font-size: 4 * @ms-ratio * 1rem;
+ line-height: 4 * @vertical-rhythm;
+ margin: @spacing-double;
 }
+
+h2, .h2 {
+ font-size: 3 * @ms-ratio * 1rem;
+ line-height: 3 * @vertical-rhythm;
+ margin: @spacing-double;
+}
+
+h3, .h3 {
+ font-size: 2 * @ms-ratio * 1rem;
+ line-height: 2 * @vertical-rhythm;
+ margin: @spacing-double;
+}
+
+h4, .h4 {
+ font-size: 1 * @ms-ratio * 1rem;
+}
+
+h5, .h5 {
+ font-size: @ms-ratio / 2 * 1rem;
+}
+
+h6, .h6 {
+ font-size: @ms-ratio / 3 * 1rem;
+}
+*/
 
 p {
   line-height: @vertical-rhythm;
-  margin: @spacing;
+}
+
+small {
+
 }
 
 blockquote {
   line-height: @vertical-rhythm;
-  margin: @spacing;
+  p:last-of-type {
+    margin: 0;
+  }
 }
+
+abbr {
+  border-bottom: .1rem dotted @color-gray-mid;
+  cursor: default;
+}
+
+mark {
+  background-color: @color-primary;
+}
+
+kbd {
+  color: #FFFFFF;
+  background: lighten(@color-gray-dark, 0);
+  border-radius: @global-radius;
+  font-size: .7rem;
+  padding: .2em .5em;
+  white-space: nowrap;
+}
+
+//@todo .lead/.hug verlagern
 
 /* Leading paragraph text */
 .lead {
-  font-size: @ms-ratio * 1rem;
+  font-size: @ms-ratio * @font-size;
 }
 
 /* Hug a the block under you */

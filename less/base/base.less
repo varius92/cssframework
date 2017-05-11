@@ -1,5 +1,6 @@
-// ** Set up a decent box model on the root element
 html {
+  font-size: @root-font-size / 16 * 100%;
+  -webkit-font-smoothing: antialiased;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -12,8 +13,155 @@ html {
  * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
  */
 *, *::before, *::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-} 
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
 
+body {
+  .rem(font-size, @font-size);
+  font-family: @font-base;
+  font-weight: @font-weight;
+  color: @font-color;
+  line-height: @vertical-rhythm;
+}
+
+// ****************************************************************
+// Links
+// ****************************************************************
+a {
+  color: @color-primary;
+  text-decoration: none;
+  word-wrap: break-word;
+  &:focus,
+  &:hover,
+  &:active,
+  &.active {
+    color: @color-primary-hover;
+  }
+}
+
+// ****************************************************************
+// Lists
+// ****************************************************************
+ul, ol, dl {
+  padding-left: @vertical-rhythm;
+  ul, ol, dl {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  dd {
+    margin-left: @vertical-rhythm;
+  }
+}
+
+// ****************************************************************
+// Tables
+// ****************************************************************
+table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+}
+
+table caption {
+  text-align: left;
+  color: @color-gray;
+}
+
+th {
+  text-align: left;
+  font-weight: 700;
+  vertical-align: bottom;
+}
+
+td {
+  vertical-align: top;
+}
+
+tr.text--center td,
+td.text--center {
+  vertical-align: middle;
+}
+
+th,
+td {
+  .rem(border-bottom, 1, solid @color-gray);
+  &:first-child {
+    padding-left: 0;
+  }
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+tfoot th,
+tfoot td {
+  color: @color-gray;
+}
+
+// ****************************************************************
+// Forms
+// ****************************************************************
+// ** Reset
+input, label, textarea {
+  padding: 0;
+  margin: 0;
+}
+
+input, textarea {
+  font-family: @font-base;
+  font-weight: @font-weight;
+  line-height: calc(@vertical-rhythm ~"- 0.2rem "); // -0.2rem border
+  //.rem(border, 1, solid @color-gray);
+  //.rem(border-radius, 3);
+  //.rem(padding, 5 8);
+  //.rem(border-radius, 1, margin, 2 auto, padding, 4 5 6 inherit);
+
+}
+
+label {
+  display: block;
+  line-height: inherit;
+}
+
+fieldset {
+  margin: 0;
+}
+
+// ****************************************************************
+// Image/Video
+// ****************************************************************
+
+// ****************************************************************
+// Misc
+// ****************************************************************
+hr {
+  border-width: 0;
+  border-top: 1px solid @color-gray;
+}
+
+// ****************************************************************
+// Code
+// ****************************************************************
+pre {
+  overflow: auto;
+}
+
+code {
+  color: @color-gray-mid;
+  background: @color-gray-light;
+  border-radius: @global-radius;
+  font-size: .7rem;
+  margin: 0 .2em;
+  padding: .2em .5em;
+  white-space: nowrap;
+}
+
+pre > code {
+  display: block;
+  padding: 1em 1.5em;
+  white-space: pre;
+}

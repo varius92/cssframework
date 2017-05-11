@@ -1,7 +1,7 @@
 // ** Create headings h{n} and .h{n}
 .make-headings (@n) when (@n > 0) {
   h@{n}, .h@{n} {
-    font-size: (@heading-count - @n + 1) * @ms-ratio * 1rem;
+    font-size: (@heading-count - @n + 1) * @ms-ratio * unit(@font-size/10, rem);
     line-height: (@heading-count - @n + 1) * @vertical-rhythm;
     margin: @spacing-double;
 
@@ -14,3 +14,33 @@
   }
   .make-headings(@n - 1);
 }
+
+.rem(@property; @sizeValue; @content:'') {
+  @pxValue: @sizeValue;
+  @remValue: (@sizeValue / @root-font-size);
+    @{property}: ~"@{pxValue}px @{content}";
+    @{property}: ~"@{remValue}rem @{content}";
+}
+
+
+//.rem-value_(@p, @v, @u) when (isnumber(@v)) {
+//    @{p}+_: (@v * @u);
+//}
+//
+//.rem-value_(@p, @v, @u) when (default()) {
+//    @{p}+_: @v;
+//}
+//
+//.rem(@args...) {
+//  .i; .i(@i: length(@args)) when (@i > 0) {
+//  .i((@i - 2));
+//  @property: extract(@args, (@i - 1));
+//  @values:   extract(@args,  @i);
+//  .j(@property, @values, (1px * @root-font-size));
+//  .j(~'@{property} ', @values, 1rem); // have to use ~'@{property} ' hack to isolate rem and px properties;
+//}
+//  .j(@p, @v, @u, @j: length(@v)) when (@j > 0) {
+//    .j(@p, @v, @u, (@j - 1));
+//    .rem-value_(@p, extract(@v, @j), @u);
+//  }
+//}
